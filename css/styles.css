@@ -1923,7 +1923,7 @@ pre code {
 }
 .table .thead-light th {
   color: #495057;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border-color: #dee2e6;
 }
 
@@ -2057,7 +2057,7 @@ pre code {
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   opacity: 1;
 }
 
@@ -3168,7 +3168,7 @@ input[type=button].btn-block {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #c4ecec;
 }
 
 .dropdown-item {
@@ -3427,7 +3427,7 @@ input[type=button].btn-block {
   color: #495057;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -3535,7 +3535,7 @@ input[type=button].btn-block {
   color: #6c757d;
 }
 .custom-control-input[disabled] ~ .custom-control-label::before, .custom-control-input:disabled ~ .custom-control-label::before {
-  background-color: #e9ecef;
+  background-color: #c4ecec;
 }
 
 .custom-control-label {
@@ -3660,7 +3660,7 @@ input[type=button].btn-block {
 }
 .custom-select:disabled {
   color: #6c757d;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
 }
 .custom-select::-ms-expand {
   display: none;
@@ -3707,7 +3707,7 @@ input[type=button].btn-block {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.25);
 }
 .custom-file-input[disabled] ~ .custom-file-label, .custom-file-input:disabled ~ .custom-file-label {
-  background-color: #e9ecef;
+  background-color: #c4ecec;
 }
 .custom-file-input:lang(en) ~ .custom-file-label::after {
   content: "Browse";
@@ -3743,7 +3743,7 @@ input[type=button].btn-block {
   line-height: 1.5;
   color: #495057;
   content: "Browse";
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border-left: inherit;
   border-radius: 0 0.25rem 0.25rem 0;
 }
@@ -3933,7 +3933,7 @@ input[type=button].btn-block {
   border-top-right-radius: 0.25rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  border-color: #c4ecec #c4ecec #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
   color: #6c757d;
@@ -4563,7 +4563,7 @@ input[type=button].btn-block {
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border-radius: 0.25rem;
 }
 
@@ -4610,7 +4610,7 @@ input[type=button].btn-block {
   z-index: 2;
   color: #e6b301;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border-color: #dee2e6;
 }
 .page-link:focus {
@@ -4813,7 +4813,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border-radius: 0.3rem;
 }
 @media (min-width: 576px) {
@@ -4974,7 +4974,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   overflow: hidden;
   line-height: 0;
   font-size: 0.75rem;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
   border-radius: 0.25rem;
 }
 
@@ -5041,7 +5041,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 .list-group-item-action:active {
   color: #212529;
-  background-color: #e9ecef;
+  background-color: #c4ecec;
 }
 
 .list-group-item {
@@ -10272,42 +10272,6 @@ header.masthead .masthead-heading {
   color: var(--dark);
 }
 
-ul.timeline {
-  list-style-type: none;
-  position: relative;
-}
-ul.timeline:before {
-  content: ' ';
-  background: #d4d9df;
-  display: inline-block;
-  position: absolute;
-  left: 29px;
-  width: 2px;
-  height: 100%;
-  z-index: 400;
-}
-ul.timeline > li {
-  margin: 20px 0;
-  padding-left: 20px;
-  text-align: left;
-}
-ul.timeline > li:before {
-  content: ' ';
-  background: white;
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 3px solid #22c0e8;
-  left: 20px;
-  width: 20px;
-  height: 20px;
-  z-index: 400;
-}
-
-ul.timeline > li > h6 {
-  color: var(--primary);
-}
-
 .timeline {
   position: relative;
   padding: 0;
@@ -10321,7 +10285,7 @@ ul.timeline > li > h6 {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  background-color: #c4ecec;
 }
 .timeline > li {
   position: relative;
@@ -10363,7 +10327,7 @@ ul.timeline > li > h6 {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #c4ecec;
   border-radius: 100%;
   background-color: #00b1b1;
 }
@@ -10371,6 +10335,10 @@ ul.timeline > li > h6 {
   font-size: 10px;
   line-height: 14px;
   margin-top: 12px;
+}
+
+.timeline > li .timeline-image h3 {
+  margin-top: 50px;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
@@ -10402,6 +10370,8 @@ ul.timeline > li > h6 {
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 @media (min-width: 768px) {
