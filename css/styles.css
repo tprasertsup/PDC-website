@@ -30,7 +30,7 @@
   --info: #17a2b8;
   --warning: #00b1b1;
   --danger: #dc3545;
-  --light: #f8f9fa;
+  --light: #8bdbdb;
   --dark: #004C4D;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -237,7 +237,7 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto var(--light);
 }
 
 input,
@@ -1683,6 +1683,7 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -2907,9 +2908,10 @@ fieldset:disabled a.btn {
   font-weight: 400;
   color: #00b1b1;
   text-decoration: none;
+  text-align: left;
 }
 .btn-link:hover {
-  color: #e6b301;
+  color: #004C4D;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4343,7 +4345,6 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4394,8 +4395,8 @@ input[type=button].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: white;
+  border-bottom: 1px solid #8bdbdb;
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
@@ -4535,15 +4536,16 @@ input[type=button].btn-block {
   overflow: hidden;
 }
 .accordion > .card:not(:last-of-type) {
-  border-bottom: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  border-bottom: 1px solid var(--light);
 }
 .accordion > .card:not(:first-of-type) {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 .accordion > .card > .card-header {
+  border-bottom: 0;
   border-radius: 0;
   margin-bottom: -1px;
 }
