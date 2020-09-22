@@ -10271,11 +10271,11 @@ header.masthead .masthead-heading {
 }
 
 .modal-body > p {
-  text-align: justify;
+  text-align: left;
 }
 
 .modal-body > ul {
-  text-align: justify;
+  text-align: left;
 }
 
 .modal-body > ol {
