@@ -120,17 +120,56 @@
                 <h2 class="section-heading text-uppercase">Services</h2>
             </div>
             <div class="accordion" id="accordionExample">
+                <!-- Oral Surgery-->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                ศัลยกรรมช่องปาก (Oral Surgery) + รักษาโรคเหงือก (Periodontics)
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour">
+                        <div class="card-body p-0">
+                            <table class="table table-borderless">
+                                <colgroup>
+                                    <col style="width: 70%">
+                                    <col style="width: 30%">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">ถอนฟันธรรมดา (Extraction)</th>
+                                        <td>800 - 1,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">ผ่าฟันคุด (Impacted Tooth)</th>
+                                        <td>3,500 - 5,500฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">ขูดหินปูนและทำความสะอาด (Scaling & Polishing)</th>
+                                        <td>800 - 1,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">พ่นขัดคราบผิวเคลือบฟัน (Air-Flow)</th>
+                                        <td>500฿</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- X-ray-->
                 <div class="card">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 ภาพถ่าย X-ray ระบบ Digital
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                        data-parent="#accordionExample">
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body p-0">
                             <table class="table table-borderless">
                                 <colgroup>
@@ -144,17 +183,18 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">ภาพถ่ายรังสี Orthopantomogram</th>
-                                        <td>450฿</td>
+                                        <td>500฿</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">ภาพถ่ายรังสี Lateral Cephalogram</th>
-                                        <td>450฿</td>
+                                        <td>500฿</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+                <!-- Restoration-->
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
@@ -174,33 +214,34 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">อุดฟันด้วยอมัลกัม 1 ด้าน</th>
-                                        <td>600-800฿</td>
+                                        <td>600 - 800฿</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">อุดฟันด้วยวัสดุสีเหมือนฟัน 1 ด้าน</th>
-                                        <td>750-1000฿</td>
+                                        <td>800 - 1,000฿</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">ชุดฟอกสีฟันที่บ้าน (Home Bleaching)</th>
-                                        <td>4500฿</td>
+                                        <td>4,500฿</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">ฟอกสีฟันทั้งปากด้วย Beyond (Cold Light)</th>
-                                        <td>9000฿</td>
+                                        <td>9,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">ฟอกสีฟันทั้งปากด้วย Beyond 2 ท่าน</th>
+                                        <td>15,000฿</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">ปิดช่องว่างระหว่างฟัน (Diastema)</th>
-                                        <td>1800-2000฿</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">ชุดฟอกสีฟันที่บ้าน (Home Bleaching)</th>
-                                        <td>4500฿</td>
+                                        <td>1,800 - 2,000฿</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+                <!-- Root Canal Treatment-->
                 <div class="card">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
@@ -220,27 +261,28 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">รักษาคลองรากฟันหน้า</th>
-                                        <td>4000-5000฿</td>
+                                        <td>4,000 - 5,000฿</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">รักษาคลองรากฟันกรามใหญ่</th>
-                                        <td>8000-10000฿</td>
+                                        <td>8,000 - 12,000฿</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+                <!-- Prosthodontics-->
                 <div class="card">
-                    <div class="card-header" id="headingFour">
+                    <div class="card-header" id="headingFive">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                ศัลยกรรมช่องปาก (Oral Surgery) + รักษาโรคเหงือก (Periodontics)
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                ใส่ฟัน (Prosthodontics)
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
                         <div class="card-body p-0">
                             <table class="table table-borderless">
                                 <colgroup>
@@ -249,22 +291,163 @@
                                 </colgroup>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">อุดฟันด้วยอมัลกัม 1 ด้าน</th>
-                                        <td>600-800฿</td>
+                                        <th scope="row">ฟันเทียมบางส่วนถอดได้ชนิดโครงโลหะ</th>
+                                        <td>9,500฿ ขึ้นไป</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">อุดฟันด้วยวัสดุสีเหมือนฟัน 1 ด้าน</th>
-                                        <td>750-1000฿</td>
+                                        <th scope="row">ฟันเทียมทั้งปากชนิดฐานเป็นอคริลิค (Complete Denture)</th>
+                                        <td>25,000 - 35,000฿</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">ชุดฟอกสีฟันที่บ้าน (Home Bleaching)</th>
-                                        <td>4500฿</td>
+                                        <th scope="row"><b style="color: black;">ครอบฟัน (Crown)</b></th>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" style="padding-left: 50px;">เซรามิกกับโลหะธรรมดา (Non-Precious
+                                            Metal)</th>
+                                        <td>9,000 - 10,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" style="padding-left: 50px;">เซรามิกกับโลหะผสมทอง > 2%
+                                            (Palladium Base)</th>
+                                        <td>14,000 - 16,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" style="padding-left: 50px;">เซรามิกกับโลหะผสมทอง > 85%
+                                            (Precious Metal)</th>
+                                        <td>20,000 - 22,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" style="padding-left: 50px;">เซรามิกทั้งชิ้น (All Ceramic)</th>
+                                        <td>15,000 - 18,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">เคลือบผิวฟันด้วยวัสดุสีเหมือนฟัน (Resin)</th>
+                                        <td>5,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">เคลือบผิวฟันด้วยวัสดุเซรามิก (Porcelain Veneer)</th>
+                                        <td>9,000 - 12,000฿</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+                <!-- Pediatric-->
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                ทันตกรรมสำหรับเด็ก (Pediatric Dentistry)
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix">
+                        <div class="card-body p-0">
+                            <table class="table table-borderless">
+                                <colgroup>
+                                    <col style="width: 70%">
+                                    <col style="width: 30%">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">ถอนฟันน้ำนม</th>
+                                        <td>450 - 500฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">ขัดฟันและเคลือบฟลูออไรด์</th>
+                                        <td>600 - 800฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">เคลือบร่องฟันป้องกันฟันผุ (Sealant)</th>
+                                        <td>600฿</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Orthodontics-->
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                ทันตกรรมจัดฟัน (Orthodontics)
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven">
+                        <div class="card-body p-0">
+                            <table class="table table-borderless">
+                                <colgroup>
+                                    <col style="width: 70%">
+                                    <col style="width: 30%">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">การจัดฟันแบบโลหะติดแน่นด้านนอก (บน / ล่าง)</th>
+                                        <td>38,000฿ ขึ้นไป</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">เครื่องมือคงสภาพฟัน (Retainer)</th>
+                                        <td>4,500 - 6,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">การจัดฟันแบบ Damon</th>
+                                        <td>75,000 - 85,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">การจัดฟันแบบใสไม่เห็นเครื่องมือ Invisalign</th>
+                                        <td>180,000 - 200,000฿</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Implant-->
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                ทันตกรรมรากเทียม (Implant)
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight">
+                        <div class="card-body p-0">
+                            <table class="table table-borderless">
+                                <colgroup>
+                                    <col style="width: 70%">
+                                    <col style="width: 30%">
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">รากฟันเทียม Astra Tech</th>
+                                        <td>60,000 - 68,000฿</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">รากฟันเทียม Osstem</th>
+                                        <td>49,000 - 60,000฿</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-left">
+                <h3 class="section-subheading text-muted mt-4 mb-1">
+                    * All prices are subject to change without notice.
+                </h3>
+                <h3 class="section-subheading text-muted">
+                    * อัตราค่ารักษาอาจเปลี่ยนแปลงตามการใช้วัสดุหรือเครื่องมือพิเศษ
+                </h3>
+
             </div>
         </div>
     </section>
@@ -595,6 +778,12 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading text-muted mb-1">
+                    Contact us for a free consultation and to make an appointment
+                </h3>
+                <h3 class="section-subheading text-muted">
+                    ปรึกษาปัญหาเรื่องฟันและนัดหมายกับทันตแพทย์เฉพาะทางฟรี
+                </h3>
             </div>
             <div class="row">
                 <div class="py-4 col-lg-6 text-center">
