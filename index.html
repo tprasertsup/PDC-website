@@ -43,11 +43,13 @@
                             href="#portfolio">Knowledge</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger font-weight-bold" href="#faq">FAQ</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger font-weight-bold"
-                            href="#contact">Contact</a></li>
+                            href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <div w3-include-html="parts/navigation.html"></div>
     <!-- Masthead-->
     <header class="masthead">
         <div class="container">
@@ -62,79 +64,6 @@
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">About</h2>
             </div>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>December 2012</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
-                            alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>July 2014</h4>
-                            <h4 class="subheading">Phase Two Expansion</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            Be Part
-                            <br />
-                            Of Our
-                            <br />
-                            Story!
-                        </h4>
-                    </div>
-                </li>
-            </ul>
         </div>
     </section>
     <!-- Team-->
@@ -235,7 +164,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                         <div class="card-body p-0">
                             <table class="table table-borderless">
                                 <colgroup>
@@ -281,8 +210,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                        data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
                         <div class="card-body p-0">
                             <table class="table table-borderless">
                                 <colgroup>
@@ -312,8 +240,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                        data-parent="#accordionExample">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                         <div class="card-body p-0">
                             <table class="table table-borderless">
                                 <colgroup>
@@ -347,7 +274,7 @@
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Dental Knowledge</h2>
             </div>
-            <div class="row">
+            <div class="row d-flex justify-content-around">
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -368,11 +295,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/orthodontics.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
-                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                            <div class="portfolio-caption-heading">ทันตกรรมจัดฟัน</div>
+                            <div class="portfolio-caption-subheading text-muted">Orthodontics</div>
                         </div>
                     </div>
                 </div>
@@ -382,11 +309,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/periodontics.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
-                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                            <div class="portfolio-caption-heading">ทันตกรรมปริทันต์</div>
+                            <div class="portfolio-caption-subheading text-muted">Periodontics</div>
                         </div>
                     </div>
                 </div>
@@ -399,8 +326,8 @@
                             <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
-                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                            <div class="portfolio-caption-heading">การรักษาคลองรากฟัน</div>
+                            <div class="portfolio-caption-subheading text-muted">Endodontics/Root canal treatment</div>
                         </div>
                     </div>
                 </div>
@@ -410,11 +337,11 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/prosthodontics.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
-                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                            <div class="portfolio-caption-heading">ทันตกรรมประดิษฐ์</div>
+                            <div class="portfolio-caption-subheading text-muted">Prosthodontics</div>
                         </div>
                     </div>
                 </div>
@@ -424,11 +351,67 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/dentalimplant.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">ทันตกรรมรากฟันเทียม</div>
+                            <div class="portfolio-caption-subheading text-muted">Dental Implant</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
                             <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
-                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            <div class="portfolio-caption-heading">ทันตกรรมตกแต่ง</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetic Dentistry</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/teethwhitening.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">ฟอกสีฟัน</div>
+                            <div class="portfolio-caption-subheading text-muted">Teeth Whitening</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">ศัลยกรรมช่องปาก</div>
+                            <div class="portfolio-caption-subheading text-muted">Oral Surgery</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/xray.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">เอกซเรย์</div>
+                            <div class="portfolio-caption-subheading text-muted">Computer X-ray</div>
                         </div>
                     </div>
                 </div>
@@ -453,7 +436,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion2">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
                         <div class="card-body">
                             <p>ทันตแพทย์จะตรวจเช็คสุขภาพช่องปากและฟัน <b>เพื่อเฝ้าระวังโรค
                                     และจะได้ทำการรักษาหรือแก้ปัญหาได้แต่เนิ่นๆ</b> เพราะโรคในช่องปากหลายๆ
@@ -475,7 +458,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion2">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
                         <div class="card-body">
                             <p> บ่อยครั้งที่หลายคนคิดว่า ฟันน้ำนมไม่จำเป็นต้องดูแล ไม่มีความสำคัญ
                                 อยู่ในปากชั่วระยะเวลาไม่กี่ปี แต่ความจริง ฟันน้ำนมเริ่มขึ้นตั้งแต่ 6-7 เดือน ไป ถึง 2
@@ -502,7 +485,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion2">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
                         <div class="card-body">
                             <ul class="list-inline">
                                 <li>
@@ -547,8 +530,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                        data-parent="#accordionExample">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
                         <div class="card-body">
                             <p>โดยปกติแล้วหากไม่มีปัญหาที่ไม่คาดคิดเกิดขึ้น
                                 การจัดฟันมักดำเนินไปตามแผนการรักษาที่ได้วางไว้
@@ -595,7 +577,7 @@
                             </button>
                         </h5>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion2">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
                         <div class="card-body">
                             <p><b>คนไข้อายุแค่ไหนก็สามารถทำทันตกรรมรากเทียมได้</b>
                                 ถ้าตราบใดที่มีกระดูกขากรรไกรพอที่จะฝังรากเทียมเข้าไป ถ้าท่านมีโรคหรือสภาวะต่อไปนี้
@@ -692,162 +674,168 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
                                 <h2 class="text-uppercase">ทันตกรรมเด็ก</h2>
-                                <p class="item-intro text-muted">Pedodontics</p>
+                                <p class="item-intro text-muted text-center">Pedodontics</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/pedodontics.jpg"
                                     alt="" />
-                                <h5>ฟันแท้ขึ้นเมื่อใด</h5>
+                                <nav class="nav dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                        aria-haspopup="true" aria-expanded="false"><i class="fa fa-list"
+                                            aria-hidden="true"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#pedodontics1">ฟันแท้ขึ้นเมื่อใด</a>
+                                        <a class="dropdown-item"
+                                            href="#pedodontics2">การดูแลรักษาสุขภาพช่องปากและฟันของลูก</a>
+                                        <a class="dropdown-item" href="#pedodontics3">การเคลือบฟลูออไรด์</a>
+                                        <a class="dropdown-item" href="#pedodontics4">การเคลือบหลุมร่องฟัน
+                                            (Sealant)</a>
+                                        <a class="dropdown-item" href="#pedodontics5">การแปรงฟัน (Brushing)</a>
+                                        <a class="dropdown-item" href="#pedodontics6">ไหมขัดฟัน (Flossing)</a>
+                                    </div>
+                                </nav>
+                                <h5 id="pedodontics1">ฟันแท้ขึ้นเมื่อใด</h5>
                                 <p>เด็กจะมีฟันแท้ซี่แรกขึ้นเมื่ออายุประมาณ 6 ปี โดยฟันกรามแท้ซี่แรก
                                     จะขึ้นไล่เลี่ยกับฟันหน้า และจะทยอยขึ้นไปเรื่อยๆ จนอายุประมาณ 12 ปี
                                     ก็จะมีฟันแท้ทั้งหมด 28 ซี่ ส่วนฟันกรามซี่สุดท้าย จะขึ้นเมื่ออายุประมาณ 18 – 25 ปี
                                     ฟันแท้ของคนเราจะมีทั้งหมด 32 ซี่ เราควรดูแลรักษาให้ดี
                                     เพราะฟันแท้จะอยู่กับเราไปตลอดชีวิต</p>
                                 <h5>การดูแลรักษาสุขภาพช่องปากและฟันของลูก</h5>
-                                <div class="timeline2">
-                                    <div class="timeline__group">
-                                        <div class="timeline__box">
-                                            <div class="timeline__date">
-                                                <span class="timeline__day">6</span>
-                                                <span class="timeline__month">เดือน</span>
-                                            </div>
-                                            <div class="timeline__post">
-                                                <div class="timeline__content">
-                                                    <p>เช็ดปากลูกให้สะอาด
-                                                        เพื่อฟันน้ำนมจะได้ขึ้นในสิ่งแวดล้อมที่สะอาด
-                                                        ควรใช้ที่กัดที่ทำจากยางให้เด็กกัดเล่น
-                                                        ไม่ควรใช้ที่กัดที่ทำจากแป้งหรือน้ำตาล</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="timeline__box">
-                                            <div class="timeline__date">
-                                                <span class="timeline__day">1</span>
-                                                <span class="timeline__month">Sept</span>
-                                            </div>
-                                            <div class="timeline__post">
-                                                <div class="timeline__content">
-                                                    <p>Started from University of Pennsylvania. This is an important
-                                                        stage of my career. Here I worked in the local magazine. The
-                                                        experience greatly affected me</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="timeline__group">
-                                        <span class="timeline__year">2014</span>
-                                        <div class="timeline__box">
-                                            <div class="timeline__date">
-                                                <span class="timeline__day">14</span>
-                                                <span class="timeline__month">Jul</span>
-                                            </div>
-                                            <div class="timeline__post">
-                                                <div class="timeline__content">
-                                                    <p>Travels to France, Italy, Spain, and Peru. After completing
-                                                        fashion editorial in Lima, prolongs stay to make portraits of
-                                                        local people in a daylight studio</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="timeline__group">
-                                        <span class="timeline__year">2016</span>
-                                        <div class="timeline__box">
-                                            <div class="timeline__date">
-                                                <span class="timeline__day">28</span>
-                                                <span class="timeline__month">Aug</span>
-                                            </div>
-                                            <div class="timeline__post">
-                                                <div class="timeline__content">
-                                                    <p>Upon moving to Brooklyn that summer, I began photographing
-                                                        weddings in Chicago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <ul class="timeline">
-                                    <li>
-                                        <div class="timeline-image">
-                                            <h4>
-                                                6<br>
-                                                เดือน
-                                            </h4>
-                                        </div>
-                                        <div class="timeline-panel">
-                                            <div class="timeline-body">
-                                                <p class="text-muted">เช็ดปากลูกให้สะอาด
-                                                    เพื่อฟันน้ำนมจะได้ขึ้นในสิ่งแวดล้อมที่สะอาด
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <ul class="timeline" id="pedodontics2">
+                                            <li>
+                                                <a href="#">6 เดือน</a>
+                                                <p>เช็ดปากลูกให้สะอาด เพื่อฟันน้ำนมจะได้ขึ้นในสิ่งแวดล้อมที่สะอาด
                                                     ควรใช้ที่กัดที่ทำจากยางให้เด็กกัดเล่น
                                                     ไม่ควรใช้ที่กัดที่ทำจากแป้งหรือน้ำตาล</p>
-                                            </div>
-                                        </div>
+                                            </li>
+                                            <li>
+                                                <a href="#">1 ปี</a>
+                                                <p>ควรเช็ดในปากและฟันให้สะอาดด้วยผ้าก๊อซ หรือสำลี อาจใช้แปรงอันเล็กๆ
+                                                    เริ่มแปรงฟันหน้าให้ลูก
+                                                    หยิบยื่นแปรงให้ลูกกัดเล่นเพื่อให้ลูกคุ้นเคยกับแปรง
+                                                    และให้ลูกเลิกดื่มนมจากขวด</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">2 ปี</a>
+                                                <p>ในช่วงนี้ใช้แปรงสีฟันแปรงบนฟันกราม
+                                                    และบริเวณฟันหน้าไปมาในแนวนอนเป็นช่วงสั้นๆ
+                                                    โดยแปรงให้ทั่วทั้งด้านที่ติดริมฝีปาก และด้านที่อยู่ใกล้ลิ้น
+                                                    เริ่มใช้ไหมขัดฟันทำความสะอาดบริเวณซอกฟัน
+                                                    ยาสีฟันที่ใช้แค่แตะขนแปรงให้ชื้นเล็กน้อย
+                                                    และใช้ผ้าก๊อซเช็ดฟองออกหลังแปรง
+                                                    ระยะนี้ควรได้รับปริมาณฟลูออไรด์ชนิดรับประทาน</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">3-5 ปี</a>
+                                                <p>ในระยะนี้ให้ใช้ไหมขัดฟันทำความสะอาดซอกฟันอย่างจริงจังทุกวัน วันละ 1
+                                                    ครั้ง หลังแปรงฟันก่อนนอน ถ้าลูกยังควบคุมการกลืนไม่ได้
+                                                    ควรใช้ปริมาณยาสีฟันน้อยๆ เท่าเมล็ดถั่วเขียว
+                                                    และพยายามเช็ดออกด้วยผ้าก๊อซ</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">6 ปี</a>
+                                                <p>เริ่มมีฟันหน้าล่างแท้และฟันกรามแท้ซี่ที่หนึ่งขึ้น
+                                                    ควรพาไปให้ทันตแพทย์ทำเคลือบหลุมร่องฟันด้วยสารคล้ายพลาสติก
+                                                    เพื่อช่วยป้องกันการผุของฟันด้านบดเคี้ยว
+                                                    เพราะฟันกรามแท้ซี่ที่หนึ่งมักมีหลุมร่องลึก เป็นที่สะสมของคราบอาหาร
+                                                    ทำความสะอาดได้ยาก จึงมักผุอย่างรวดเร็ว</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">7-8 ปี</a>
+                                                <p>ในช่วงนี้ฟันหน้าแท้จะขึ้นมา 4 ซี่ ทั้งขากรรไกรบนและล่าง
+                                                    หากพบว่าฟันแท้หน้าบนขึ้นข้างหลังฟันน้ำนม
+                                                    ทันตแพทย์จะช่วยถอนฟันน้ำนมออก เพื่อให้ฟันแท้เคลื่อนมาข้างหน้า
+                                                    หลังจากฟันหน้าบน 4 ซี่ ขึ้นเรียบร้อยแล้ว
+                                                    ฟันหน้าอาจจะมีช่องว่างระหว่างฟัน
+                                                    แต่ช่องว่างนี้อาจจะปิดได้สนิทเมื่อฟันเขี้ยวบนขึ้น เมื่ออายุ 12 ปี
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <a href="#">9-12 ปี</a>
+                                                <p>จะเป็นช่วงที่มีการเปลี่ยนฟันน้ำนมเป็นฟันแท้ ควรดูแลเรื่องการแปรงฟัน
+                                                    การใช้ฟลูออไรด์ และทำเคลือบหลุมร่องฟัน
+                                                    นอกจากนี้ควรระวังเรื่องการรับประทานอาหาร ไม่กินจุบจิบ
+                                                    เพราะช่วงนี้มีโอกาสเกิดฟันผุได้ง่าย</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">13-18 ปี</a>
+                                                <p>ควรดูแลเรื่องการสบฟันของฟันแท้ และความสัมพันธ์ของขากรรไกรบนและล่าง
+                                                    หากพบความผิดปกติ
+                                                    ควรรีบปรึกษาทันตแพทย์จัดฟันเพื่อรับการรักษาในช่วงวัยนี้</p>
+                                            </li>
+                                            <li>
+                                                <a href="#">18-25 ปี</a>
+                                                <p>จะเป็นช่วงที่ฟันกรามซี่ที่ 3 ขึ้นมาในช่องปากซึ่งเรา เรียกว่าฟันคุด
+                                                    ทันตแพทย์จะแนะนำให้ถอนออก เพื่อป้องกันปัญหาที่เกิดขึ้นภายหลัง</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <h5 class="caution">
+                                    <i class="fas fa-exclamation-triangle" style="color: #ffc456;"></i>
+                                    ควรพาลูกมาพบทันตแพทย์อย่างสม่ำเสมอ เริ่มตั้งแต่อายุ 1 ปี
+                                </h5>
+                                <h5 id="pedodontics3">การเคลือบฟลูออไรด์</h5>
+                                <p>ฟลูออไรด์เป็นสารที่ช่วยป้องกันฟันผุอย่างมีประสิทธิภาพ
+                                    ฟลูออไรด์จะทำให้เกิดผลึกที่ผิวเคลือบฟัน
+                                    ซึ่งมีความแข็งแรงทนทานต่อการกัดกร่อนของกรดที่เกิดจากแบคทีเรียที่แผ่นคราบฟัน
+                                    นอกจากนี้ฟลูออไรด์ยังมีคุณสมบัติในการซ่อมรอยผุของฟันในระยะแรกเริ่ม ด้วยกลไก
+                                    Recalcification</p>
+                                <h5>เราได้รับฟลูออไรด์จากทางใดบ้าง</h5>
+                                <ul>
+                                    <li>การรับประทาน
+                                        ในต่างประเทศจะมีการเติมสารฟลูออไรด์ลงในน้ำประปา เพื่อป้องกันฟันผุ
+                                        แต่ในประเทศไทย
+                                        การรับประทานมักเป็นในรูปของ ยาเม็ดฟลูออไรด์ หรือยาน้ำ ซึ่งนิยมใช้ในเด็กทารก
                                     </li>
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-image"><img class="rounded-circle img-fluid"
-                                                src="assets/img/about/2.jpg" alt="" /></div>
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h4>March 2011</h4>
-                                                <h4 class="subheading">An Agency is Born</h4>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit. Sunt ut
-                                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
-                                                    recusandae sit vero
-                                                    unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="timeline-image"><img class="rounded-circle img-fluid"
-                                                src="assets/img/about/3.jpg" alt="" /></div>
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h4>December 2012</h4>
-                                                <h4 class="subheading">Transition to Full Service</h4>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit. Sunt ut
-                                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
-                                                    recusandae sit vero
-                                                    unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-image"><img class="rounded-circle img-fluid"
-                                                src="assets/img/about/4.jpg" alt="" /></div>
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h4>July 2014</h4>
-                                                <h4 class="subheading">Phase Two Expansion</h4>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur
-                                                    adipisicing elit. Sunt ut
-                                                    voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
-                                                    recusandae sit vero
-                                                    unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-image">
-                                            <h4>
-                                                Be Part
-                                                <br />
-                                                Of Our
-                                                <br />
-                                                Story!
-                                            </h4>
-                                        </div>
+                                    <li>ฟลูออไรด์ชนิดรับประทาน ควรให้วันละ 0.25 มิลลิกรัม
+                                        เริ่มให้ได้ตั้งแต่อายุ 6 เดือน ให้เรื่อยมาจนถึงอายุ 3 ขวบ ให้เพิ่มเป็นวันละ
+                                        0.5
+                                        มิลลิกรัม เมื่อถึงอายุ 6 ขวบ ให้เพิ่มเป็นวันละ 1 มิลลิกรัม</li>
+                                    <li>การใช้ยาสีฟันผสมฟลูออไรด์</li>
+                                    <li>การเคลือบฟันด้วยเจลเคลือบ หรือ
+                                        การใช้น้ำยาบ้วนปากที่มีฟลูออไรด์
                                     </li>
                                 </ul>
+                                <p>ฟลูออไรด์ที่ใช้เคลือบฟันมีลักษณะเป็นเจล ให้ผลในการป้องกันฟันผุ
+                                    20-30%
+                                    <b>โดยควรเคลือบฟลูออไรด์ทุกๆ 6 เดือน</b> ยิ่งเคลือบฟลูออไรด์มากครั้งเท่าใด
+                                    ปริมาณของฟลูออไรด์ที่ผิวเคลือบฟันจะมีมากขึ้น</p>
+                                <h5 id="pedodontics4">การเคลือบหลุมร่องฟัน (Sealant)</h5>
+                                <p>ในวัยเด็ก ฟันด้านบดเคี้ยวของฟันกราม โดยเฉพาะฟันกรามแท้ซี่ที่ 1
+                                    ซึ่งขึ้นเมื่ออายุประมาณ 6 ขวบ มักมีหลุมและร่องลึก ซึ่งผุได้ง่าย
+                                    เพราะเป็นที่สะสมของเศษอาหาร และกลายเป็นแหล่งสะสมของแบคทีเรีย
+                                    เนื่องจากขนของแปรงสีฟันไม่สามารถเข้าไปทำความสะอาดในบริเวณนี้ได้
+                                    <b>ดังนั้นทันตแพทย์จะทำการเคลือบ หรือผนึกหลุมร่องฟัน ด้วยสารลักษณะคล้ายพลาสติก
+                                        เพื่อช่วยป้องกันฟันผุของฟันด้านบดเคี้ยว</b> และเมื่อฟันกรามแท้ ทั้ง 3 ซี่ คือ
+                                    ซี่ 1, 2 และ 3 ขึ้นเมื่ออายุประมาณ 6 ปี 12 ปี และ 18-25 ปี ตามลำดับ
+                                    ก็ควรเคลือบหลุมร่องฟันเพื่อป้องกันฟันผุด้วย</p>
+                                <h5 id="pedodontics5">การแปรงฟัน (Brushing)</h5>
+                                <p>ควรเลือกแปรงสีฟันที่มีขนาดพอเหมาะ ขนแปรงนุ่ม
+                                    ไม่แข็งกระด้างเกินไปเพราะจะระคายเคืองต่อเหงือก ทำให้คอฟันสึก</p>
+                                <h5>การแปรงฟันที่ถูกวิธี</h5>
+                                <ul class="text-justify">
+                                    <li><b>การแปรงฟันด้านข้าง</b>
+                                        ให้ขนแปรงทำมุมประมาณ 45 องศากับตัวฟัน
+                                        โดยสอดขนแปรงเข้าไประหว่างฟันและเหงือกรอบฟันเล็กน้อย ขยับหัวแปรงไปมาเบาๆ
+                                        ใช้เวลาประมาณ 10 วินาที ต่อฟันแต่ละซี่ก่อนที่จะเลื่อนแปรงต่อไปยังฟันซี่อื่นถัดไป
+                                        ทำความสะอาดทั้งด้านนอกและด้านในของฟัน</li>
+                                    <li><b>การแปรงฟันด้านบดเคี้ยว</b> ให้ตั้งแปรงให้ขนแปรงตรงระนาบเดียวกับด้านบดเคี้ยว
+                                        แล้วถูไปถูมา</li>
+                                </ul>
+                                <h5 id="pedodontics6">ไหมขัดฟัน (Flossing)</h5>
+                                <p>นอกจากการแปรงฟันให้สะอาดแล้ว ควรใช้ไหมขัดฟัน (Dental Floss)
+                                    ร่วมทำความสะอาดตามซอกฟันหรือบริเวณที่ขนแปรงเข้าไม่ถึง โดยการใช้ไหมขัดฟัน
+                                    ความยาวประมาณ 18 นิ้ว พันรอบปลายนิ้วกลางทั้งสองข้าง
+                                    สำหรับฟันบนให้นิ้วหัวแม่มือดึงไหมขัดฟันให้ตึง
+                                    ความยาวของไหมระหว่างนิ้วทั้งสองข้างประมาณ 1 - 2 นิ้ว
+                                    (สำหรับฟันล่างใช้นิ้วชี้ทั้งสองข้าง ดึงไหมขัดฟันให้ตึง) เคลื่อนไหมไปมาเบาๆ
+                                    เข้าระหว่างซอกฟันแล้วโค้งไหมโอบรอบฟัน เคลื่อนขึ้นลง เพื่อทำความสะอาดซอกฟัน
+                                    <b>ควรใช้ไหมขัดฟันทำความสะอาดซอกฟันทุกซี่ทั้งฟันบนและฟันล่าง อย่างน้อยวันละครั้ง
+                                        (หลังแปรงฟันก่อนนอน)</b></p>
                                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -867,21 +855,91 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project Details Go Here-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2020</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
+                                <h2 class="text-uppercase">ทันตกรรมจัดฟัน</h2>
+                                <p class="item-intro text-muted text-center">Orthodontics</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/orthodontics.jpg"
+                                    alt="" />
+                                <nav class="nav dropdown">
+                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                        aria-haspopup="true" aria-expanded="false"><i class="fa fa-list"
+                                            aria-hidden="true"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#orthodontics1">วิธีการจัดฟันแบบต่างๆ</a>
+                                        <a class="dropdown-item" href="#orthodontics2">ขั้นตอนการจัดฟัน</a>
+                                        <a class="dropdown-item"
+                                            href="#orthodontics3">คำแนะนำการดูแลรักษาขณะได้รับการจัดฟัน</a>
+                                    </div>
+                                </nav>
+                                <p class="mt-2">
+                                    เป็นการเรียงฟันให้เป็นระเบียบอยู่ในแนวที่ถูกต้อง
+                                    แก้ไขลักษณะฟันที่เรียงตัวกันอย่างซ้อนเก ห่าง หรือยื่นมากเกินไป นอกจากนี้
+                                    การจัดฟันยังเป็นการแก้ไขลักษณะการบดเคี้ยวที่ผิดปกติ แก้ไขโครงสร้างใบหน้า
+                                    และขากรรไกรให้มีความสวยงามและสมดุลอีกด้วย
+                                    การจัดฟันยังช่วยให้การเคี้ยวอาหารมีประสิทธิภาพดีขึ้น และง่ายต่อการทำความสะอาด
+                                </p>
+                                <h5 id="orthodontics1">วิธีการจัดฟันแบบต่างๆ</h5>
+                                <ul>
+                                    <li class="mb-2"><b>การจัดฟันแบบโลหะติดแน่นด้านนอก</b>
+                                        เป็นการจัดฟันโดยการติดเครื่องมือจัดฟันแบบโลหะ (Bracket or Braces)
+                                        ไว้ที่ผิวฟันด้านหน้า แล้วใส่ลวดผ่านช่อง Bracket เพื่อทำการเลื่อนฟัน
+                                        เป็นวิธีการจัดฟันที่นิยมใช้มานาน
+                                    </li>
+                                    <li class="mb-2"><b>การจัดฟันแบบสีเหมือนฟัน (Ceramic or Clear bracket)</b>
+                                        การจัดฟันแบบนี้จะใช้วัสดุสีเหมือนฟัน หรือ Ceramic bracket แทน Bracket
+                                        ที่เป็นโลหะ ทำให้มองดูแล้วมีความสะอาดมากกว่าแบบโลหะ</li>
+                                    <li class="mb-2"><b>การจัดฟันด้วยเครื่องมือ Damon®</b>
+                                        เป็นการจัดฟันด้วยการใช้ Bracket
+                                        แบบโลหะที่ได้ออกแบบเครื่องมือที่มีแรงเสียดทานน้อย ทำให้ฟันเคลื่อนที่ได้เร็วขึ้น
+                                        และช่วยลดระยะเวลาการจัดฟัน รวมทั้งระยะเวลาในการพบทันตแพทย์น้อยลง</li>
+                                    <li class="mb-2"><b>การจัดฟันด้านใน Lingual orthodontics</b>
+                                        การจัดฟันด้วยเครื่องมือชนิดติดแน่นด้านใน ทำให้มองไม่เห็นเครื่องมือที่ติดฟัน
+                                        เป็นอีกทางเลือกหนึ่งในการจัดฟัน ซึ่งเหมาะกับคนทำงานที่จำเป็นต้องการความสวยงาม
+                                        เวลาพูด ยิ้ม โดยไม่เห็นเครื่องมือจัดฟัน
+                                        การจัดฟันด้านในจะมีค่าใช้จ่ายสูงกว่าการจัดฟันด้านนอก
+                                        เพราะต้องใช้เครื่องมือพิเศษและซับซ้อนกว่า
+                                        รวมทั้งต้องอาศัยความสามารถและความชำนาญพิเศษของทันตแพทย์</li>
+                                    <li class="mb-2"><b>การจัดฟันถอดได้แบบใส Clear Aligner or Invisalign®</b>
+                                        การจัดฟันถอดได้แบบใส สามารถช่วยแก้ปัญหาการเรียงตัวของฟัน
+                                        ให้มีความเป็นระเบียบสวยงาม โดยไม่ต้องมีเครื่องมือยึดติดบนตัวฟัน
+                                        ทำให้มองไม่เห็นเครื่องมือที่ใส่ในการจัดฟัน
+                                        เหมาะสำหรับคนไข้ที่ไม่ต้องการให้ผู้อื่นเห็นว่าจัดฟัน</li>
                                 </ul>
-                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <h5 id="orthodontics2">ขั้นตอนการจัดฟัน</h5>
+                                <ol>
+                                    <li><b>ขั้นตอนการตรวจวินิจฉัย และวิเคราะห์โรค</b>
+                                        <ul>
+                                            <li>การบันทึกประวัติ การรักษาทางทันตกรรม ข้อมูลเกี่ยวกับช่องปากและฟัน
+                                                พฤติกรรมบางอย่างของคนไข้ รวมถึงการสบฟันของคนไข้</li>
+                                            <li>การพิมพ์ปาก และเอกซเรย์ใบหน้า</li>
+                                            <li>การวางแผนการรักษา</li>
+                                        </ul>
+                                    </li>
+                                    <li><b>ขั้นตอนการเตรียมช่องปากและฟันก่อนการติดเครื่องมือ</b>
+                                        <ul>
+                                            <li>ขูดหินปูนทำความสะอาด</li>
+                                            <li>อุดฟันซี่ที่ผุกร่อน</li>
+                                            <li>ถอนฟันบางซี่ที่ต้องเกี่ยวข้องกับการจัดฟัน</li>
+                                            <li>อื่นๆ</li>
+                                        </ul>
+                                    </li>
+                                    <li><b>ขั้นตอนการติดเครื่องมือ</b>
+                                        <ul>
+                                            <li>ทันตแพทย์จะทำการติดเครื่องมือจัดฟันตามแผนการรักษา</li>
+                                        </ul>
+                                    </li>
+                                    <li><b>การตรวจสภาพฟันและการปรับเครื่องมือรายเดือน</b></li>
+                                    <li><b>ขั้นตอนการใส่เครื่องมือคงสภาพฟัน ภายหลังจากการถอดเครื่องมือจัดฟัน</b></li>
+                                </ol>
+                                <h5 id="orthodontics3">คำแนะนำการดูแลรักษาขณะได้รับการจัดฟัน</h5>
+                                <ul>
+                                    <li>ดูแลรักษาสุขภาพฟันด้วยการแปรงฟันและใช้ไหมขัดฟันสม่ำเสมอ</li>
+                                    <li>หลีกเลี่ยงการรับประทานอาหารที่แข็งและเหนียว</li>
+                                    <li>ปฏิบัติตามคำแนะนำของทันตแพทย์ในการรักษาอย่างเคร่งครัด</li>
+                                    <li>ควรได้รับการขูดหินปูนทุกๆ 6 เดือน</li>
+                                </ul>
+                                <button class="btn btn-primary mt-2" data-dismiss="modal" type="button">
                                     <i class="fas fa-times mr-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
