@@ -10023,6 +10023,14 @@ p {
   margin-bottom: 4rem;
 }
 
+.section-subheading-caution {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Prompt', sans-serif;
+  margin-bottom: 4rem;
+  color: var(--primary);
+}
+
 @media (min-width: 768px) {
   section {
     padding: 9rem 0;
