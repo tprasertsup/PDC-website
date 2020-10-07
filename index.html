@@ -173,7 +173,9 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/ngamwonwan.jpg" alt="" />
+                            <img class="img-fluid" id="ngamwongwan-img-holder" src="assets/img/Ngamwongwan1.jpg"
+                                alt="" />
+
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">สาขางามวงศ์วาน</div>
@@ -187,7 +189,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/ngamwonwan.jpg" alt="" />
+                            <img class="img-fluid" id="bangna-img-holder" src="assets/img/Bangna1.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">สาขาบางนา</div>
@@ -2205,6 +2207,33 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script type="text/javascript">
+        var curPic = -1;
+        var ngamwongwanPicArray = ["assets/img/Ngamwongwan1.jpg", "assets/img/Ngamwongwan2.jpg"];
+        var bangnaPicArray = ['assets/img/Bangna1.jpg', 'assets/img/Bangna2.jpg']
+        var ngamwongwan = new Array();
+        var bangna = new Array();
+        for (i = 0; i < 2; i++) {
+            ngamwongwan[i] = new Image();
+            ngamwongwan[i].src = ngamwongwanPicArray[i];
+            bangna[i] = new Image();
+            bangna[i].src = bangnaPicArray[i];
+        }
+
+        function swapImage() {
+            curPic = curPic + 1
+            curPic = curPic % 2;
+            ngamwonwanPicHolder.src = ngamwongwan[curPic].src;
+            bangnaPicHolder.src = bangna[curPic].src;
+            setTimeout(swapImage, 2000);
+        }
+
+        window.onload = function () {
+            ngamwonwanPicHolder = document.getElementById('ngamwongwan-img-holder');
+            bangnaPicHolder = document.getElementById('bangna-img-holder');
+            swapImage();
+        }
+    </script>
 </body>
 
 </html>
