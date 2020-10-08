@@ -10342,8 +10342,12 @@ header.masthead .masthead-heading {
     color: white;
 }
 
-.portfolio-item .portfolio-link:hover .portfolio-hover {
+.portfolio-item:hover .portfolio-hover {
     opacity: 1;
+}
+
+.portfolio-item:hover {
+    cursor: pointer;
 }
 
 .portfolio-item .portfolio-caption {
