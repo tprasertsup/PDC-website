@@ -10389,6 +10389,8 @@ header.masthead .masthead-heading {
     font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.portfolio-modal .modal-content p {}
+
 .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 2rem;
 }
@@ -10623,13 +10625,4 @@ li {
 
 .semi-small-box-shadow {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
-}
-
-.section-subheading-normal {
-    margin-top: 0;
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: 'Prompt', sans-serif;
-    margin-bottom: 4rem;
-    color: var(--dark);
 }
