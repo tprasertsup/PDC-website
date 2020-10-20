@@ -3137,15 +3137,14 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #00b1b1;
+    color: var(--primary);
     text-decoration: none;
     text-align: left;
     font-size: 1.5rem;
 }
 
 .btn-link:hover {
-    color: #004C4D;
-    text-decoration: underline;
+    color: var(--dark);
 }
 
 .btn-link:focus,
@@ -10571,7 +10570,6 @@ b {
 
 .about-button:hover>h4 {
     color: var(--light) !important;
-    text-decoration: underline;
 }
 
 .about-button:hover>.btn-primary {
@@ -10585,17 +10583,15 @@ b {
 }
 
 .about-button:focus {
+    outline-style: none;
     cursor: pointer;
 }
 
-.about-button:focus>.btn-primary {
-    color: #fff;
-    background-color: var(--dark);
-    border-color: var(--dark);
+.about-button:focus>.btn-large {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.50);
 }
 
 .about-button:focus>h4 {
-    color: var(--light) !important;
     text-decoration: underline;
 }
 
