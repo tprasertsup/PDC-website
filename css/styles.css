@@ -2530,29 +2530,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: var(--dark);
-    border-color: var(--dark);
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #8bdbdb;
-    border-color: #8bdbdb;
+    background-color: var(--light);
+    border-color: var(--light);
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: var(--dark);
-    border-color: var(--dark);
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #8bdbdb;
-    border-color: #8bdbdb;
+    background-color: var(--light);
+    border-color: var(--light);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -2824,7 +2824,6 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: var(--light);
     border-color: var(--light);
-    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 
 .btn-dark.disabled,
@@ -10566,8 +10565,19 @@ b {
     color: var(--primary);
 }
 
+.about-button {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 .about-button:hover>h4 {
     color: var(--light) !important;
+    text-decoration: underline;
+}
+
+.about-button:hover>.btn-primary {
+    color: #fff;
+    background-color: var(--light);
+    border-color: var(--light);
 }
 
 .about-button:hover {
@@ -10578,7 +10588,14 @@ b {
     cursor: pointer;
 }
 
+.about-button:focus>.btn-primary {
+    color: #fff;
+    background-color: var(--dark);
+    border-color: var(--dark);
+}
+
 .about-button:focus>h4 {
+    color: var(--light) !important;
     text-decoration: underline;
 }
 
@@ -10633,10 +10650,6 @@ li {
     font-style: italic;
 }
 
-.fa-shadow {
-    text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.40);
-}
-
 .semi-small-box-shadow {
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.30);
 }
@@ -10648,4 +10661,18 @@ li {
     font-family: 'Prompt', sans-serif;
     margin-bottom: 4rem;
     color: var(--dark);
+}
+
+.btn-large {
+    font-weight: 900;
+    font-size: 63px;
+    height: 120px;
+    width: 120px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.20)
 }
