@@ -40,7 +40,7 @@
         offset: 74,
     });
 
-    // Scroll about us icon to the top of the window
+    // Scroll toTheTop class to the top of the window
     $('.collapse').on('shown.bs.collapse', function(e) {
         var $toTheTop = $(this).closest('.toTheTop');
         if (typeof $toTheTop !== 'undefined') {
