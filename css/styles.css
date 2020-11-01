@@ -10672,3 +10672,17 @@ li {
     color: white;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.20)
 }
+
+.promotion-modal-content {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.promotion-modal-body {
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+.promotion-modal-body img {
+    margin-bottom: 1rem !important;
+}
